@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rio de Janeiro - Introdução</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Luiza Vidal">
+    <meta name="description" content="Website sobre o Rio de Janeiro">
+    <meta name="keywords" content="rio brasil turismo">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <section>
+        <a href="index.html"><b>Voltar para página inicial.</b></a>
+        <h3>Quizz</h3>
+
+        <p style="font-size: large;">Nesta página, será feito um Quizz para testar os seus conhecimentos sobre o Rio 🤩!
+        </p>
+
+    </section>
+
+    <form action="mailto:lcopolillo@gmail.com" method="post" enctype="multipart/form-data">
+
+        <fieldset style="border: white;">
+            <legend style="font-size: large;">Será que você conhece bem o Rio de Janeiro?</legend>
+            <br>
+            <fieldset style="background-color: #BAE2BE; border-style: double; border-color: #0F6292;">
+                <fieldset style="background-color: #BAE2BE; border: #BAE2BE">
+                    <b style="font-size: 30px; color: #0F6292;">Informações</b>
+
+                    <fieldset style="border-style: double; border-color: #0F6292;">
+                        <legend>Nome:</legend>
+                        <input type="text" name="nome" id="fname" maxlength="20" autofocus required />
+                    </fieldset>
+
+                    <fieldset style="border-style: double; border-color: #0F6292;">
+                        <legend>Apelido:</legend>
+                        <input type="text" name="apelido" id="lname" maxlength="20" required />
+                    </fieldset>
+
+                    <fieldset style="border-style: double; border-color: #0F6292;">
+                        <legend>Email:</legend>
+                        <input type="email" name="email" id="email" required>
+                    </fieldset>
+
+                </fieldset>
+
+            </fieldset>
+            <br>
+            <fieldset style="background-color: #F0F1B3; border-style: double; border-color: #0F6292;">
+                <b style="font-size: 30px; color: #0F6292;">Perguntas</b>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>1️⃣: Em que país o Rio de Janeiro está localizado?</legend>
+                    <input type="text" id="name" name="nome" size="30" maxlength="10"
+                        placeholder="(é um país Sul-Americano)">
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>2️⃣: Qual é a maior cidade do Brasil?</legend>
+                    <div>
+                        <input type="radio" id="cidade1" name="cidade" value="São Paulo, SP" />
+                        <label for="cidade1">São Paulo, SP</label>
+
+                        <input type="radio" id="cidade2" name="cidade" value="Salvador, BA" />
+                        <label for="cidade2">Salvador, BA</label>
+
+                        <input type="radio" id="cidade3" name="cidade" value="Rio de Janeiro, RJ" />
+                        <label for="cidade3">Rio de Janeiro, RJ</label>
+
+                        <input type="radio" id="cidade4" name="cidade" value="Brasília, DF" />
+                        <label for="cidade4">Brasília, DF</label>
+                    </div>
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>3️⃣: Selecione os pontos turísticos que tem mais interesse em conhecer:</legend>
+                    <div>
+                        <input type="checkbox" id="ponto1" name="ponto turístico" value="Pão de Açúcar" />
+                        <label for="ponto1">Pão de Açúcar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ponto2" name="ponto turístico" value="Cristo Redentor" />
+                        <label for="ponto2">Cristo Redentor</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ponto3" name="ponto turístico" value="Museu do Amanhã" />
+                        <label for="ponto2">Museu do Amanhã</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ponto4" name="ponto turístico"
+                            value="Theatro Municipal do Rio de Janeiro" />
+                        <label for="ponto2">Theatro Municipal do Rio de Janeiro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ponto5" name="ponto turístico" value="Nenhum dos anteriores :(" />
+                        <label for="ponto2">Nenhum dos anteriores :(</label>
+                    </div>
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>4️⃣: Qual a data de inauguração do Cristo Redentor?</legend>
+                    <input type="date" id="data" name="inauguração" value="1931-00-00" min="1931-01-01 required"
+                        max="1931-12-31">
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>5️⃣: Qual dessas praias é a famosa Praia de Copacabana?</legend>
+                    <input type="image" src="images/copacabana.jfif" alt="Praia de Copacabana" width="320" height="200">
+                    <input type="radio" id="praia1" name="praia" value="Praia de Copacabana" />
+
+                    <input type="image" src="images/ipanema.jfif" alt="Praia de Ipanema" width="320" height="200">
+                    <input type="radio" id="praia1" name="praia" value="Praia de Ipanema" />
+
+                    <input type="image" src="images/itacoa.jpg" alt="Praia de Itacoatiara" width="320" height="200">
+                    <input type="radio" id="praia1" name="praia" value="Praia de Itacoatiara" />
+
+                    <input type="image" src="images/leblon.jpg" alt="Praia do Leblon" width="320" height="200">
+                    <input type="radio" id="praia1" name="praia" value="Praia do Leblon" />
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>6️⃣: Selecione as 3 cores presentes na bandeira do Brasil</legend>
+                    <div>
+                        <input type="color" id="cor1" name="cor" value="#ffffff" required>
+                        <label for="cor1">1</label>
+
+                        <input type="color" id="cor2" name="cor" value="#ffffff" required>
+                        <label for="cor2">2</label>
+
+                        <input type="color" id="cor3" name="cor" value="#ffffff" required>
+                        <label for="cor3">3</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>7️⃣: Quantas praias existem no Rio de Janeiro?</legend>
+                    <label for="praias">Digite um número entre 5 e 50:</label>
+
+                    <input type="number" id="praias" name="praias" min="5" max="50" required>
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>8️⃣: Qual seria a temperatura perfeita para pegar um sol na praia?</legend>
+
+                    <label for="temp">Escolha uma temperatura! 🌡️</label><br />
+                    <input type="range" id="temp" name="temperatura" list="values" required />
+
+                    <datalist id="values" class="main.css">
+                        <option value="0" label="❄️0º"></option>
+                        <option value="25" label="☁️10º"></option>
+                        <option value="50" label="🌤️20º"></option>
+                        <option value="75" label="☀️30º"></option>
+                        <option value="100" label="🔥40º"></option>
+                    </datalist>
+
+                </fieldset><br>
+                
+                <input type="submit" value="Submeter respostas" />
+
+            </fieldset>
+            <br>
+
+            <fieldset style="background-color: #BAE2BE; border-style: double; border-color: #0F6292;">
+                <b style="font-size: 30px; color: #0F6292;">Cidade Bonita</b><br>
+                <i style="font-size: 15px; color: #0F6292;"> Autor desconhecido</i><br><br>
+
+                <textarea id="poema" name="poema" rows="20" cols="50">
+                    Rio de Janeiro
+                    Cidade da Vitória
+                    Tem coisas bonitas
+                    E muitas histórias
+
+                    Há muitos trabalhadores honestos
+                    Cidadãos brasileiros
+                    Muitos turistas
+                    E famosos estrangeiros
+
+                    A maioria dos turistas
+                    Quer conhecer o Cristo Redentor
+                    Comunidades da região pacificada
+                    Que os recebem com muito amor 
+
+                    Esse é o nosso Rio
+                    Cheio de alegria
+                    Cheio de espaço 
+                    Cheio de harmonia
+                </textarea>
+
+            </fieldset>
+        </fieldset>
+</body>
+
+</html>
