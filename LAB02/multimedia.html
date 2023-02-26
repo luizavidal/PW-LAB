@@ -7,33 +7,47 @@
   <meta name="author" content="Luiza Vidal">
   <meta name="description" content="Website sobre o Rio de Janeiro">
   <meta name="keywords" content="rio brasil turismo">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
   <section>
-    <h1>Rio de Janeiro</h1>
-    <figure>
-      <img src="images/rio.jpg" alt="Rio de Janeiro">
-      <figcaption>Rio de Janeiro, Brasil</figcaption>
-      <details>
-        <summary>Cristo Redentor</summary>
-        <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro de 1931 e
-          está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
-        </p>
-      </details>
-    </figure>
+    <header>
+      <h1>Rio de Janeiro</h1>
+      <figure>
+        <img src="images/rio.jpg" alt="Rio de Janeiro">
+        <figcaption>Rio de Janeiro, Brasil</figcaption>
+        <details>
+          <summary>Cristo Redentor</summary>
+          <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro
+            de
+            1931 e
+            está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
+          </p>
+        </details>
+      </figure>
+    </header>
+
     <br>
     <p>
-      <a href="index.html"><b>Introdução</b></a></b>
+    <nav><a href="index.html"><b>Introdução</b></a></b>
       <a href="local.html"><b>Localização</b></a>
       <a href="multimedia.html"><b>Multimedia</b></a>
       <a href="info.html"><b>Informação</b></a>
+      <a href="quizz.html"><b>Quizz</b></a>
+      <a href="html5-css.html"><b>HTML5-CSS</b></a>
+    </nav>
+
     </p>
   </section>
 
   <section>
     <h3>Multimedia</h3>
+    <p>
+      <a href="#fotografias">Fotografias</a>
+      <a href="#poema">Poema</a>
+    </p>
     <p>Vista aérea da Cidade Maravilhosa, Rio de Janeiro!</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/fA7kQn-l6T4?start=6"
       title="YouTube video player" frameborder="0"
@@ -41,6 +55,54 @@
       allowfullscreen></iframe>
     <br>
     Video by: <b>Drone Snap on YouTube</b>
+
+    <aside>Este vídeo mostra perfeitamente os principais pontos turísticos do Rio de Janeiro deixando claro o quão linda
+      é a cidade brasileira, e com certeza deixando quem assiste com vontade de visitar a cidade...</aside>
+  </section>
+
+  <section>
+    <h3 id="fotografias">Fotografias</h3>
+
+    <section>
+
+      <p>
+        <a href="images/pda_grande.png" target="foto"><img src="images/pda_pequeno.png" alt="Pão de Açucar"></a>
+        <a href="images/theatro_grande.png" target="foto"><img src="images/theatro_pequeno.png" alt="Theatro Municipal"></a>
+        <a href="images/mengo_grande.jpg" target="foto"><img src="images/mengo_pequeno.png" alt="Maracanã"></a>
+      </p>
+
+    </section>
+  </section>
+
+  <section>
+    <h3 id="poema">Poema</h3>
+    <center><b style="font-size: large;">Inocentes do Leblon</b><br>
+
+      Carlos Drummond de Andrade<br><br>
+      
+      <i>Os inocentes do Leblon <br>
+      
+        não viram o navio entrar. <br>
+        
+        Trouxe bailarinas? <br>
+        
+        trouxe imigrantes? <br>
+        
+        trouxe um grama de rádio? <br>
+        
+        Os inocentes, definitivamente inocentes, tudo ignoram, <br>
+  
+        mas a areia é quente, e há um óleo suave <br>
+        
+        que eles passam nas costas, e esquecem.</i>
+  </section> <br><br></center>
+    
+
+  <section>
+    <label for="file">Conhecimento sobre o Rio:</label>
+
+    <progress id="file" max="100" value="50"> 50% </progress>
+
   </section>
 
 

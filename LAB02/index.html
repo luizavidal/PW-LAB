@@ -7,30 +7,38 @@
     <meta name="author" content="Luiza Vidal">
     <meta name="description" content="Website sobre o Rio de Janeiro">
     <meta name="keywords" content="rio brasil turismo">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
     <section>
-        <h1>Rio de Janeiro</h1>
-        <figure>
-            <img src="images/rio.jpg" alt="Rio de Janeiro">
-            <figcaption>Rio de Janeiro, Brasil</figcaption>
-            <details>
-                <summary>Cristo Redentor</summary>
-                <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro de
-                    1931 e
-                    está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
-                </p>
-            </details>
-        </figure>
+        <header>
+            <h1>Rio de Janeiro</h1>
+            <figure>
+                <img src="images/rio.jpg" alt="Rio de Janeiro">
+                <figcaption>Rio de Janeiro, Brasil</figcaption>
+                <details>
+                    <summary>Cristo Redentor</summary>
+                    <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro
+                        de
+                        1931 e
+                        está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
+                    </p>
+                </details>
+            </figure>
+        </header>
+
         <br>
         <p>
-            <a href="index.html"><b>Introdução</b></a></b>
+        <nav><a href="index.html"><b>Introdução</b></a></b>
             <a href="local.html"><b>Localização</b></a>
             <a href="multimedia.html"><b>Multimedia</b></a>
             <a href="info.html"><b>Informação</b></a>
             <a href="quizz.html"><b>Quizz</b></a>
+            <a href="html5-css.html"><b>HTML5-CSS</b></a>
+        </nav>
+
         </p>
     </section>
 
@@ -40,31 +48,57 @@
             <li><a href="local.html">Aqui</a> há informações cruciais sobre a localização da cidade.</li>
             <li><a href="multimedia.html">Aqui</a> há um breve vídeo sobre a cidade.</li>
             <li><a href="info.html">Aqui</a> há dados adicionais sobre a cidade.</li>
+            <li><a href="quizz.html">Aqui</a> há um Quizz divertido sobre a cidade.</li>
         </ol>
         </p>
     </section>
 
     <section>
         <h3>Introdução</h3>
-        <p>Este nome foi dado por colonizadores portugueses quando, em 1º de Janeiro de 1502, chegaram ao local.
-            <br>
-            Com suas praias abundantes, cenários de felicidade como música e o Carnaval (atraindo mais de 5 milhões de
-            turistas anualmente),
-            o Rio de Janeiro é a cidade brasileira mais famosa no exterior, sendo assim o maior destino turístico
-            internacional do Brasil, América Latina e do Hemisfério Sul.
-            <br>
-            O Rio é conhecido principalemnte pela beleza de suas praias, cordilheiras e morros, cobertos por florestas
-            tropicais.
-            <br>
-            Os cariocas representam um microcosmo da diversidade étnica do Brasil e incluem pessoas de ascendência
-            europeia, africana e mestiça.
-            <br>
-            <b>Fun fact:</b> no século XIX a Coroa Portuguesa decidiu se mudar para o Rio por motivos de proteção.
-            A cidade já era capital da colônia portuguesa e posteriormente se tornou a capital de Portugal, sendo a
-            única capital europeia fora da Europa.
-        </p>
+        <main>
+            <p>Este nome foi dado por colonizadores portugueses quando, em 1º de Janeiro de 1502, chegaram ao local.
+                <br>
+                Com suas praias abundantes, cenários de felicidade como música e o Carnaval (atraindo mais de 5 milhões
+                de
+                turistas anualmente),
+                o Rio de Janeiro é a cidade brasileira mais famosa no exterior, sendo assim o maior destino turístico
+                internacional do Brasil, América Latina e do Hemisfério Sul.
+                <br>
+                O Rio é conhecido principalemnte pela beleza de suas praias, cordilheiras e morros, cobertos por
+                florestas
+                tropicais.
+                <br>
+                Os cariocas representam um microcosmo da diversidade étnica do Brasil e incluem pessoas de ascendência
+                europeia, africana e mestiça.
+                <br>
+                <b>Fun fact:</b> no século XIX a Coroa Portuguesa decidiu se mudar para o Rio por motivos de proteção.
+                A cidade já era capital da colônia portuguesa e posteriormente se tornou a capital de Portugal, sendo a
+                única capital europeia fora da Europa.
+            </p>
+        </main>
+
+        <p style="font-size: large;"><b>Este website tem como objetivo fazer o leitor conhecer mais sobre a cidade do Rio de Janeiro e quem sabe
+            ganhar
+            vontade de fazer uma visita...</b><p>
+        <label for="vontadeAntes"><b>A tua vontade antes de terminar de ler o site 🤔:</b></label>
+        <meter id="vontadeAntes" value="2" min="0" max="10">2 out of 10</meter><br>
+        <label for="vontadeDepois"><b>A tua vontade antes de terminar de ler o site 🤑:</b></label>
+        <meter id="vontadeDepois" value="10" min="0" max="10">10 out of 10</meter>
+
     </section>
-    <img src="images/wordcloud.png" alt="wordcloud Rio">
+    <img src="images/wordcloud.png" alt="wordcloud Rio"><br><br>
+
+
+
+    <section>
+        <label for="file">Conhecimento sobre o Rio:</label>
+
+        <progress id="file" max="100" value="10"> 10% </progress>
+
+    </section>
+
+
+
 </body>
 
 </html>

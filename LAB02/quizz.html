@@ -2,19 +2,48 @@
 <html lang="en">
 
 <head>
-    <title>Rio de Janeiro - Introdução</title>
+    <title>Rio de Janeiro - Quizz</title>
     <meta charset="utf-8">
     <meta name="author" content="Luiza Vidal">
     <meta name="description" content="Website sobre o Rio de Janeiro">
     <meta name="keywords" content="rio brasil turismo">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="estilos.css">
 
 </head>
 
 <body>
 
     <section>
-        <a href="index.html"><b>Voltar para página inicial.</b></a>
+        <header>
+            <h1>Rio de Janeiro</h1>
+            <figure>
+                <img src="images/rio.jpg" alt="Rio de Janeiro">
+                <figcaption>Rio de Janeiro, Brasil</figcaption>
+                <details>
+                    <summary>Cristo Redentor</summary>
+                    <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro
+                        de
+                        1931 e
+                        está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
+                    </p>
+                </details>
+            </figure>
+        </header>
+
+        <br>
+        <p>
+        <nav><a href="index.html"><b>Introdução</b></a></b>
+            <a href="local.html"><b>Localização</b></a>
+            <a href="multimedia.html"><b>Multimedia</b></a>
+            <a href="info.html"><b>Informação</b></a>
+            <a href="quizz.html"><b>Quizz</b></a>
+            <a href="html5-css.html"><b>HTML5-CSS</b></a>
+        </nav>
+
+        </p>
+    </section>
+    <section>
         <h3>Quizz</h3>
 
         <p style="font-size: large;">Nesta página, será feito um Quizz para testar os seus conhecimentos sobre o Rio 🤩!
@@ -33,7 +62,7 @@
 
                     <fieldset style="border-style: double; border-color: #0F6292;">
                         <legend>Nome:</legend>
-                        <input type="text" name="nome" id="fname" maxlength="20" autofocus required />
+                        <input type="text" name="nome" id="fname" maxlength="20" pattern="[a-z]" autofocus required />
                     </fieldset>
 
                     <fieldset style="border-style: double; border-color: #0F6292;">
@@ -56,7 +85,7 @@
                 <fieldset style="border-style: double; border-color: #0F6292;">
                     <legend>1️⃣: Em que país o Rio de Janeiro está localizado?</legend>
                     <input type="text" id="name" name="nome" size="30" maxlength="10"
-                        placeholder="(é um país Sul-Americano)">
+                        placeholder="(é um país Sul-Americano)" autocomplete="country-name">
                 </fieldset>
 
                 <fieldset style="border-style: double; border-color: #0F6292;">
@@ -158,41 +187,49 @@
                         <option value="100" label="🔥40º"></option>
                     </datalist>
 
+                </fieldset>
+
+                <fieldset style="border-style: double; border-color: #0F6292;">
+                    <legend>9️⃣: Quais dessas comidas/bebidas típicas brasileiras você mais gostaria de experimentar?
+                    </legend>
+
+                    <label for="alimentos">Selecione uma ou mais opções</label><br><br>
+                    <select name="alimentos" multiple>
+                        <option>Brigadeiro</option>
+                        <option>Coxinha</option>
+                        <option>Guaraná Antártica</option>
+                        <option>Água de Coco</option>
+                        <option>Paçoca</option>
+                        <option>Pastel</option>
+                    </select>
+
                 </fieldset><br>
-                
+
                 <input type="submit" value="Submeter respostas" />
 
             </fieldset>
             <br>
 
             <fieldset style="background-color: #BAE2BE; border-style: double; border-color: #0F6292;">
-                <b style="font-size: 30px; color: #0F6292;">Cidade Bonita</b><br>
-                <i style="font-size: 15px; color: #0F6292;"> Autor desconhecido</i><br><br>
-
-                <textarea id="poema" name="poema" rows="20" cols="50">
-                    Rio de Janeiro
-                    Cidade da Vitória
-                    Tem coisas bonitas
-                    E muitas histórias
-
-                    Há muitos trabalhadores honestos
-                    Cidadãos brasileiros
-                    Muitos turistas
-                    E famosos estrangeiros
-
-                    A maioria dos turistas
-                    Quer conhecer o Cristo Redentor
-                    Comunidades da região pacificada
-                    Que os recebem com muito amor 
-
-                    Esse é o nosso Rio
-                    Cheio de alegria
-                    Cheio de espaço 
-                    Cheio de harmonia
-                </textarea>
+                <b style="font-size: 20px; color: #0F6292;">O que achou deste Quizz? Deixe um comentário abaixo!😁 </b><br><br>
+                <textarea id="story" name="comentário" rows="10"
+                    cols="100">Responda aqui.</textarea>
 
             </fieldset>
         </fieldset>
+
+        <section>
+            <label for="file">Conhecimento sobre o Rio:</label>
+
+            <progress id="file" max="100" value="100"> 100% </progress>
+
+        </section>
+
+        <p>Depois desse Quizz tenho a certeza de que você está preparado para visitar o Rio! :)</p>
+
+        <address>
+            <a href="mailto:lcopolillo@gmail.com">📧: lcopolillo@gmail.com</a><br>
+        </address>
 </body>
 
 </html>

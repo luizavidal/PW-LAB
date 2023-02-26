@@ -15,30 +15,40 @@
   <meta name="author" content="Luiza Vidal">
   <meta name="description" content="Website sobre o Rio de Janeiro">
   <meta name="keywords" content="rio brasil turismo">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
   <section>
-    <h1>Rio de Janeiro - Informação</h1>
-    <figure>
-      <img src="images/rio.jpg" alt="Rio de Janeiro">
-      <figcaption>Rio de Janeiro, Brasil</figcaption>
-      <details>
-        <summary>Cristo Redentor</summary>
-        <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro de 1931 e
-          está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
-        </p>
-      </details>
-    </figure>
+    <header>
+        <h1>Rio de Janeiro</h1>
+        <figure>
+            <img src="images/rio.jpg" alt="Rio de Janeiro">
+            <figcaption>Rio de Janeiro, Brasil</figcaption>
+            <details>
+                <summary>Cristo Redentor</summary>
+                <p>O Cristo Redentor é o principal cartão postal do Rio de Janeiro, foi inaugurada em 12 de outubro
+                    de
+                    1931 e
+                    está localizada no alto do morro do Corcovado. É considerada uma das 7 maravilhas do mundo.
+                </p>
+            </details>
+        </figure>
+    </header>
+
     <br>
     <p>
-      <a href="index.html"><b>Introdução</b></a></b>
-      <a href="local.html"><b>Localização</b></a>
-      <a href="multimedia.html"><b>Multimedia</b></a>
-      <a href="info.html"><b>Informação</b></a>
+    <nav><a href="index.html"><b>Introdução</b></a></b>
+        <a href="local.html"><b>Localização</b></a>
+        <a href="multimedia.html"><b>Multimedia</b></a>
+        <a href="info.html"><b>Informação</b></a>
+        <a href="quizz.html"><b>Quizz</b></a>
+        <a href="html5-css.html"><b>HTML5-CSS</b></a>
+    </nav>
+
     </p>
-  </section>
+</section>
 
   <section>
     <h3>Informação</h3>
@@ -78,11 +88,22 @@
   </section>
 
   <section>
-    <footer>
-      <p>Luiza Vidal, a22106688, Universidade Lusófona de Humanidades e Tecnologias, 2º ano</p>
-    </footer>
-  </section>
+    <label for="file">Conhecimento sobre o Rio:</label>
+
+    <progress id="file" max="100" value="60"> 60% </progress>
+
+</section>
+
+
 
 </body>
+
+
+  <footer>
+    <p>Luiza Vidal, a22106688, Universidade Lusófona de Humanidades e Tecnologias, 2º ano</p>
+    <address>
+      <a href="mailto:lcopolillo@gmail.com">📧: lcopolillo@gmail.com</a><br>
+  </address>
+  </footer>
 
 </html>

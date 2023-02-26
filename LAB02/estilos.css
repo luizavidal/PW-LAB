@@ -1,0 +1,55 @@
+* {
+    font-family: 'Changa', sans-serif;
+  }
+  
+  fieldset{
+      background-color: aliceblue ;
+  }
+  
+  body{
+      background-color: rgb(227, 239, 246) ;
+  }
+  
+  h1{
+      color: #0F6292;;
+  }
+  
+  h2{
+      color: #0F6292;;
+  }
+  
+  h3{
+      color: #0F6292;;
+  }
+  
+  h4{
+      color: #0F6292;;
+  }
+  
+  h5{
+      color: #0F6292;;
+  }
+  
+  h6{
+      color: #0F6292;;
+  }
+  
+  a:hover{
+      color: #0F6292;;
+  }
+  
+  a::after {
+      content: '';
+  }
+  
+  a::before{
+      content: '📍';
+  }
+  
+  tr:nth-child(even){
+      background-color: #0F6292;
+  }
+  
+  tr:nth-child(odd){
+      background-color: #2D93CF;
+  }
